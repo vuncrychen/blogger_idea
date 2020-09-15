@@ -1,0 +1,80 @@
+一般文字: abcd
+syntax: abcd
+
+連結: 嘿！這是 連結 喔!
+syntax: 嘿！這是 [連結](link) 喔!
+
+斜體字: hello(斜體字)
+syntax: _hello_
+
+粗體字: world(粗體字)
+syntax: __world__
+
+刪除線: this is a line (刪除線)
+syntax: <del>this is a line</del>
+
+底線: 我站在線上(下底線)
+syntax: <ins>我站在線上</ins>
+
+標題大小: same as markdown
+
+code: python code
+
+------------------------------
+from os import *
+
+print("Hello World")
+list = [a, b, c]
+for i in  list:
+  print(i)
+------------------------------
+syntax: 
+
+------------------------------
+{% highlight python lineanchors %}
+from os import *
+
+print("Hello World")
+list = [a, b, c]
+for i in  list:
+  print(i)
+{% endhighlight %}
+------------------------------
+
+tag: padding, line-height, margin(元素tag)
+syntax: `padding`, `line-height`, `margin`
+
+事項1: . (dot)
+syntax: *
+
+事項2: 1, 2, 3 (數字)
+syntax: 1, 2, 3
+
+圖片: 切割(排版)
+syntax: ![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)
+
+圖片: 原圖
+syntax: _![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)_
+
+highlight bg color: text(黑色 bg highlight)
+syntax: <span class="bg-dark-gray white">text</span>
+
+highlight text color: text(紅色字體)
+syntax: <span class="red">text</span>
+
+引言: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.
+syntax: > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.
+
+引言寫法2: Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+Antoine de Saint-Exupéry(小字體[作者])
+syntax: 
+
+<blockquote>
+  <p>
+    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+  </p>
+  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
+</blockquote>
+
+
+
